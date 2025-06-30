@@ -46,7 +46,7 @@ The PortfolioScreen is widget tested to validate:
 ## Getting Started
 1. Clone the repository
    ```bash
-   git clone
+   git clone https://github.com/Snehal-iOS/baraka_flutter_app.git
 2. Install dependencies
    ```bash
    flutter pub get
