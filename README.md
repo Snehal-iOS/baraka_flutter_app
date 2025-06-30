@@ -69,7 +69,10 @@ The UI updates via emitting PortfolioLoaded state again.
 injectable_module.dart and injector.dart handle DI. 
 Repositories are injected using annotations like @LazySingleton.
 
-   
+## Demo
+
+![App Demo](assets/demoflutter.mov)
+
    
 ## Author
 Snehal Lokhande
