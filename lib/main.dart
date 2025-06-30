@@ -1,4 +1,5 @@
 import 'package:baraka_flutter_app/core/app_constants.dart';
+import 'package:baraka_flutter_app/core/utils/network_listener.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -33,27 +34,29 @@ class _BarakaAppState extends State<BarakaApp> {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: AppConstants.barakaPortFolio,
-      locale: _locale,
-      supportedLocales: const [
-        Locale('en'), // English
-        Locale('ar'), // Arabic
-      ],
-      localizationsDelegates: AppLocalizations.localizationsDelegates,
-      theme: ThemeData(
-        useMaterial3: true,
-        colorSchemeSeed: Colors.teal,
-        brightness: Brightness.light,
-      ),
-      darkTheme: ThemeData(
-        useMaterial3: true,
-        colorSchemeSeed: Colors.teal,
-        brightness: Brightness.dark,
-      ),
-      home: BlocProvider(
-        create: (_) => getIt<PortfolioBloc>()..add(LoadPortfolio()),
-        child: PortfolioScreen(onToggleLanguage: _toggleLanguage),
+    return NetworkListener(
+      child: MaterialApp(
+        title: AppConstants.barakaPortFolio,
+        locale: _locale,
+        supportedLocales: const [
+          Locale('en'), // English
+          Locale('ar'), // Arabic
+        ],
+        localizationsDelegates: AppLocalizations.localizationsDelegates,
+        theme: ThemeData(
+          useMaterial3: true,
+          colorSchemeSeed: Colors.teal,
+          brightness: Brightness.light,
+        ),
+        darkTheme: ThemeData(
+          useMaterial3: true,
+          colorSchemeSeed: Colors.teal,
+          brightness: Brightness.dark,
+        ),
+        home: BlocProvider(
+            create: (_) => getIt<PortfolioBloc>()..add(LoadPortfolio()),
+            child: PortfolioScreen(onToggleLanguage: _toggleLanguage),
+        ),
       ),
     );
   }
