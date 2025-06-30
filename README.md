@@ -75,9 +75,18 @@ Repositories are injected using annotations like @LazySingleton.
 ![App Demo Android](assets/android_demo.mov)
 
 
-## Screenshots
-![En iOS](assets/11.png) | ![Ar iOS](assets/22.png)
-![En Android](assets/1.png) | ![Ar Android](assets/2.png)
+## Screenshots iOS
+
+| Screenshot 1       | Screenshot 2       |
+|--------------------|--------------------|
+| ![](assets/11.png) | ![](assets/22.png) |
+
+## Screenshots Android
+
+| Screenshot 1 | Screenshot 2 |
+|--------------|--------------|
+| ![](assets/1.png) | ![](assets/2.png) |
+
 
    
 ## Author
