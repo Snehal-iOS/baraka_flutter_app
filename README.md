@@ -71,7 +71,13 @@ Repositories are injected using annotations like @LazySingleton.
 
 ## Demo
 
-![App Demo](assets/demoflutter.mov)
+![App Demo iOS](assets/iOS_demo.mov)
+![App Demo Android](assets/android_demo.mov)
+
+
+## Screenshots
+![En iOS](assets/11.png) | ![Ar iOS](assets/22.png)
+![En Android](assets/1.png) | ![Ar Android](assets/2.png)
 
    
 ## Author
