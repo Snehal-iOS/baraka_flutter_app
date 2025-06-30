@@ -17,8 +17,9 @@ dependencies:
   get_it: ^7.6.4
   injectable: ^2.3.2
   http: ^1.1.0
-  intl: any
+  intl: ^0.20.2
   json_annotation: ^4.8.1
+  connectivity_plus: ^5.0.2
   flutter_localizations:
     sdk: flutter
 
