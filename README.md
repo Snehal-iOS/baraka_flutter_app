@@ -18,6 +18,7 @@ This is a simplified Portfolio screen implementation developed for a fintech ass
 4. Testing: Unit & Widget testing using flutter_test
 
 ## Directory Structure
+```bash
 lib/
 ├── core/
 │   └── di/                   # Dependency injection setup
@@ -31,7 +32,7 @@ test/
 ├── features/
 │   └── portfolio/
 │       └── presentation/     # Widget and unit tests
-
+```
 
 ## Testing
 The PortfolioScreen is widget tested to validate:
@@ -39,7 +40,7 @@ The PortfolioScreen is widget tested to validate:
 2. Presence of John Doe, AAPL, and Net Value fields
 3. Run the following command :
 4.    ```bash
-flutter test test/features/portfolio/presentation/pages/portfolio_screen_test.dart
+       flutter test test/features/portfolio/presentation/pages/portfolio_screen_test.dart
 
 
 ## Getting Started
