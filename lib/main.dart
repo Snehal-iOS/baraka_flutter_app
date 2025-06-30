@@ -1,5 +1,4 @@
 import 'package:baraka_flutter_app/core/app_constants.dart';
-import 'package:baraka_flutter_app/core/utils/network_listener.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -34,8 +33,7 @@ class _BarakaAppState extends State<BarakaApp> {
 
   @override
   Widget build(BuildContext context) {
-    return NetworkListener(
-      child: MaterialApp(
+    return MaterialApp(
         title: AppConstants.barakaPortFolio,
         locale: _locale,
         supportedLocales: const [
@@ -57,7 +55,6 @@ class _BarakaAppState extends State<BarakaApp> {
             create: (_) => getIt<PortfolioBloc>()..add(LoadPortfolio()),
             child: PortfolioScreen(onToggleLanguage: _toggleLanguage),
         ),
-      ),
     );
   }
 }
