@@ -91,3 +91,12 @@ Repositories are injected using annotations like @LazySingleton.
    
 ## Author
 Snehal Lokhande
+Mobile Developer | Fintech Enthusiast
+Dubai, UAE
+isnehal28@gmail.com
+
+---
+
+### License
+
+This project is intended for technical evaluation purposes only. Not for production use.
