@@ -40,7 +40,7 @@ The PortfolioScreen is widget tested to validate:
 2. Presence of John Doe, AAPL, and Net Value fields
 3. Run the following command :
 4.    ```bash
-       flutter test test/features/portfolio/presentation/pages/portfolio_screen_test.dart
+    flutter test test/features/portfolio/presentation/pages/portfolio_screen_test.dart
 
 
 ## Getting Started
