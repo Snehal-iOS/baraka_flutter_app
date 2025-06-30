@@ -77,14 +77,14 @@ Repositories are injected using annotations like @LazySingleton.
 
 ## Screenshots iOS
 
-| Screenshot 1       | Screenshot 2       |
+| English            | Arabic             |
 |--------------------|--------------------|
 | ![](assets/11.png) | ![](assets/22.png) |
 
 ## Screenshots Android
 
-| Screenshot 1 | Screenshot 2 |
-|--------------|--------------|
+| English           | Arabic            |
+|-------------------|-------------------|
 | ![](assets/1.png) | ![](assets/2.png) |
 
 
