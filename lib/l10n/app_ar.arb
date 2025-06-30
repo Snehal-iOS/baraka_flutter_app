@@ -1,0 +1,16 @@
+{
+  "portfolioTitle": "محفظتي",
+  "switchLanguage": "تبديل اللغة",
+  "welcomeMessage": "مرحبًا بك في محفظتك!",
+  "qty": "الكمية",
+  "avg": "المتوسط",
+  "marketValue": "القيمة السوقية",
+  "ltp": "السعر الحالي",
+  "netValue": "القيمة الصافية",
+  "pnl": "الأرباح والخسائر",
+  "invested": "المستثمر",
+  "totalValue": "القيمة الإجمالية",
+  "yourHoldings": "حيازاتك",
+  "selectedLocale" : "EN",
+  "usd" : "دولار أمريكي"
+}

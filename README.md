@@ -1,16 +1,29 @@
 # baraka_flutter_app
 
-A new Flutter project.
+This is a simplified Portfolio screen implementation developed for a fintech assignment. It simulates real-time price updates for user holdings and demonstrates best practices with Flutter, Bloc, Dependency Injection, Clean Architecture, and Widget Testing.
 
+## Features
+## Architecture
+## Testing
 ## Getting Started
+1. Clone the repository
+   ```bash
+   git clone
+2. Install dependencies
+   ```bash
+   flutter pub get
+3. Generate injectable config
+   ```bash
+   flutter pub run build_runner build --delete-conflicting-outputs
+4. Run the app
+   ```bash
+   flutter run
+5. Run tests
+   ```bash
+   flutter test
+   
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+   
+   
+## Author
+Snehal Lokhande

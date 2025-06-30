@@ -1,0 +1,7 @@
+# Check this link for customization options with translations
+# https://docs.flutter.dev/accessibility-and-localization/internationalization
+
+arb-dir: lib/l10n
+template-arb-file: app_en.arb
+output-localization-file: app_localizations.dart
+synthetic-package: false

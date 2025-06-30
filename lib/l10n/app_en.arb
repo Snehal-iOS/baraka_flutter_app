@@ -1,0 +1,17 @@
+{
+  "@@locale": "en",
+  "portfolioTitle": "My Portfolio",
+  "switchLanguage": "Switch Language",
+  "welcomeMessage": "Welcome to your portfolio!",
+  "qty": "Qty",
+  "avg": "Avg",
+  "marketValue": "Market Value",
+  "ltp": "LTP",
+  "netValue": "Net Value",
+  "pnl": "P&L",
+  "invested" : "Invested",
+  "totalValue": "Total Value",
+  "yourHoldings": "Your Holdings",
+  "selectedLocale" : "AR",
+  "usd" : "USD"
+}
