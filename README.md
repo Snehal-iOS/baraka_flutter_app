@@ -1,4 +1,6 @@
 # Baraka Portfolio App
+[![Flutter](https://img.shields.io/badge/Flutter-3.22.1-blue.svg)](https://flutter.dev/)
+[![Dart](https://img.shields.io/badge/Dart-3.4.1-blue.svg)](https://dart.dev/)
 
 This is a simplified Portfolio screen implementation developed for a fintech assignment. It simulates real-time price updates for user holdings and demonstrates best practices with Flutter, Bloc, Dependency Injection, Clean Architecture, and Widget Testing.
 
@@ -9,13 +11,20 @@ This is a simplified Portfolio screen implementation developed for a fintech ass
 4. Language toggle support
 5. Modular and testable architecture
 
-
-
 ## Architecture
 1. State Management: Bloc from flutter_bloc 
 2. Dependency Injection: injectable + get_it 
 3. Data Layer: Repository pattern 
 4. Testing: Unit & Widget testing using flutter_test
+
+## Flutter SDK Requirements
+The project requires specific Flutter SDK versions for the main branch:
+
+- Flutter 3.22.1 • channel stable
+- Upstream repository https://github.com/flutter/flutter.git
+- Framework revision a14f74ff3a (1 year, 1 month ago), 2024-05-22 11:08:21 -0500
+- Engine • revision f6344b75dc
+- Tools • Dart 3.4.1 • DevTools 2.34.3
 
 ## Directory Structure
 ```bash
@@ -41,7 +50,6 @@ The PortfolioScreen is widget tested to validate:
 3. Run the following command :
 4. ```bash
    flutter test test/features/portfolio/presentation/pages/portfolio_screen_test.dart
-
 
 ## Getting Started
 1. Clone the repository
